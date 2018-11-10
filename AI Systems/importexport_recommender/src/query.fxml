@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Accordion?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.control.Spinner?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TitledPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox fx:id="myVBox" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="215.0" prefWidth="420.0" stylesheets="@query.css" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Query">
+   <children>
+      <Accordion fx:id="fullAccordion" prefHeight="169.0" prefWidth="410.0" style="-fx-border-color: transparent;">
+        <panes>
+          <TitledPane fx:id="queryTitledPane" animated="false" text="Basic Attributes">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <GridPane hgap="0.5" prefHeight="92.0" prefWidth="383.0" vgap="0.5">
+                          <columnConstraints>
+                            <ColumnConstraints hgrow="SOMETIMES" maxWidth="196.0" minWidth="0.0" prefWidth="84.0" />
+                            <ColumnConstraints hgrow="SOMETIMES" maxWidth="388.0" minWidth="0.0" prefWidth="156.0" />
+                              <ColumnConstraints hgrow="SOMETIMES" maxWidth="388.0" minWidth="10.0" prefWidth="131.0" />
+                          </columnConstraints>
+                          <rowConstraints>
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                          </rowConstraints>
+                           <children>
+                              <Label style="-fx-text-fill: white;" text="Nationality">
+                                 <font>
+                                    <Font name="SansSerif Regular" size="12.0" />
+                                 </font>
+                              </Label>
+                              <Label style="-fx-text-fill: white;" text="Legal Status" GridPane.rowIndex="1">
+                                 <font>
+                                    <Font name="SansSerif Regular" size="12.0" />
+                                 </font>
+                              </Label>
+                              <Label style="-fx-text-fill: white;" text="Location" GridPane.rowIndex="2">
+                                 <font>
+                                    <Font name="SansSerif Regular" size="12.0" />
+                                 </font>
+                              </Label>
+                              <ComboBox fx:id="cmbNationality" minHeight="-Infinity" prefHeight="22.0" prefWidth="150.0" GridPane.columnIndex="1" GridPane.hgrow="NEVER" GridPane.vgrow="NEVER" />
+                              <ComboBox fx:id="cmbLegalStatus" minHeight="-Infinity" prefHeight="22.0" prefWidth="150.0" GridPane.columnIndex="1" GridPane.hgrow="NEVER" GridPane.rowIndex="1" GridPane.vgrow="NEVER" />
+                              <ComboBox fx:id="cmbLocation" minHeight="-Infinity" prefHeight="22.0" prefWidth="150.0" GridPane.columnIndex="1" GridPane.hgrow="NEVER" GridPane.rowIndex="2" GridPane.vgrow="NEVER" />
+                              <Slider fx:id="sliderNationality" blockIncrement="0.1" majorTickUnit="0.2" max="1.0" minorTickCount="5" prefWidth="100.0" showTickLabels="true" showTickMarks="true" snapToTicks="true" GridPane.columnIndex="2">
+                                 <GridPane.margin>
+                                    <Insets top="5.0" />
+                                 </GridPane.margin></Slider>
+                              <Slider fx:id="sliderLegalStatus" blockIncrement="0.1" majorTickUnit="0.2" max="1.0" minorTickCount="5" showTickLabels="true" showTickMarks="true" GridPane.columnIndex="2" GridPane.rowIndex="1">
+                                 <GridPane.margin>
+                                    <Insets top="20.0" />
+                                 </GridPane.margin></Slider>
+                              <Slider fx:id="sliderLocation" blockIncrement="0.1" majorTickUnit="0.2" max="1.0" minorTickCount="5" showTickLabels="true" showTickMarks="true" GridPane.columnIndex="2" GridPane.rowIndex="2">
+                                 <GridPane.margin>
+                                    <Insets top="20.0" />
+                                 </GridPane.margin></Slider>
+                           </children>
+                           <padding>
+                              <Insets left="3.0" right="3.0" />
+                           </padding>
+                        </GridPane>
+                     </children>
+                  </AnchorPane>
+            </content>
+          </TitledPane>
+            <TitledPane fx:id="queryTitledPane1" animated="false" text="Group and Sub-Group">
+               <content>
+                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <GridPane hgap="0.5" prefHeight="116.0" prefWidth="389.0" vgap="0.5">
+                           <columnConstraints>
+                              <ColumnConstraints hgrow="SOMETIMES" maxWidth="196.0" minWidth="0.0" prefWidth="195.0" />
+                              <ColumnConstraints hgrow="SOMETIMES" maxWidth="388.0" minWidth="10.0" prefWidth="193.0" />
+                           </columnConstraints>
+                           <rowConstraints>
+                              <RowConstraints maxHeight="53.0" minHeight="4.0" prefHeight="16.5" vgrow="SOMETIMES" />
+                              <RowConstraints maxHeight="103.0" minHeight="10.0" prefHeight="62.5" vgrow="SOMETIMES" />
+                              <RowConstraints maxHeight="103.0" minHeight="10.0" prefHeight="35.0" vgrow="SOMETIMES" />
+                           </rowConstraints>
+                           <children>
+                              <Label prefHeight="28.0" prefWidth="53.0" style="-fx-text-fill: white;" text="Group">
+                                 <font>
+                                    <Font name="SansSerif Regular" size="12.0" />
+                                 </font>
+                              </Label>
+                              <TextArea fx:id="txtGroup" prefHeight="44.0" prefWidth="200.0" wrapText="true" GridPane.rowIndex="1" />
+                              <TextArea fx:id="txtSubGroup" prefHeight="124.0" prefWidth="150.0" wrapText="true" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                              <Label style="-fx-text-fill: white;" text="Sub-Group" GridPane.columnIndex="1">
+                                 <font>
+                                    <Font name="SansSerif Regular" size="12.0" />
+                                 </font>
+                              </Label>
+                              <Slider fx:id="sliderGroup" blockIncrement="0.1" majorTickUnit="0.2" max="1.0" minorTickCount="5" showTickLabels="true" showTickMarks="true" GridPane.rowIndex="2" />
+                              <Slider fx:id="sliderSubGroup" blockIncrement="0.1" majorTickUnit="0.2" max="1.0" minorTickCount="5" showTickLabels="true" showTickMarks="true" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                           </children>
+                           <padding>
+                              <Insets left="3.0" right="3.0" />
+                           </padding>
+                        </GridPane>
+                     </children>
+                  </AnchorPane>
+               </content>
+            </TitledPane>
+        </panes>
+         <VBox.margin>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </VBox.margin>
+      </Accordion>
+      <AnchorPane prefHeight="26.0" prefWidth="420.0">
+         <children>
+            <Button fx:id="btnSendQuery" layoutX="220.0" layoutY="1.0" mnemonicParsing="false" onAction="#sendQueryClick" text="Send Query" />
+            <Spinner fx:id="spinnerTopK" layoutX="146.0" layoutY="1.0" prefHeight="25.0" prefWidth="64.0" />
+            <Label layoutX="92.0" layoutY="6.0" text="Select K" />
+         </children>
+      </AnchorPane>
+   </children>
+</VBox>

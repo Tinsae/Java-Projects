@@ -1,0 +1,5 @@
+Jones,123 Mitchell,Arlington,Texas,76019,1222-4567-3456-1111,Furniture,COUCH,25.00,4
+Smith,61 Bose Lane,Dallas,Texas,75000,6547-2341-5445-3456,Electronic,TV,35.50,14
+Willis,245 Monster Drive,Hurst,Texas,75050,4156-3456-1111-2222,Furniture,BED,15.75,7
+Jones,123 Mitchell,Arlington,Texas,76019,5222-4567-3456-1111,Electronic,COMPUTER,30.00,5
+Smith,61 Bose Lane,Dallas,Texas,75000,6547-2341-5445-3456,Electronic,COMPUTER,45.00,3
