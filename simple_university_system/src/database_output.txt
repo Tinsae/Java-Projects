@@ -1,0 +1,166 @@
+Name: Arthur Cardona
+Email: arthc12@calstatela.edu
+Address: 
+Street Number: 1824
+Apartment Number: 0
+Street Name: Gage Avenue
+City: Los Angeles
+State: CA
+Zip Code: 91104
+Office: E&T 228
+Salary: 55000.0
+Office Hours: M&W: 3:30
+Rank: Professor
+Phone Number(s): 
+Home: : (323) 378-1991 
+Cell: : (323) 755-1836 
+
+Name: Josh Zielinski
+Email: joshz57@calstatela.edu
+Address: 
+Street Number: 2513
+Apartment Number: 0
+Street Name: Gleason Street
+City: Los Angeles
+State: CA
+Zip Code: 94567
+Office: E&T 311
+Salary: 38000.0
+Title: Librarian
+Phone Number(s): 
+Home: : (323) 846-3489 
+
+Name: Edgar Hernandez
+Email: ehern251@calstatela.edu
+Address: 
+Street Number: 7513
+Apartment Number: 0
+Street Name: Fourth Street
+City: Los Angeles
+State: CA
+Zip Code: 93457
+Class Standing: freshman
+Phone Number(s): 
+Home: : (323) 174-8975 
+
+Name: Jacod Valdez
+Email: jvald45@calstatela.edu
+Address: 
+Street Number: 2345
+Apartment Number: 0
+Street Name: Boyle Avenue
+City: Los Angeles
+State: CA
+Zip Code: 91346
+Office: FA 546
+Salary: 42000.0
+Office Hours: T&TH: 12:30
+Rank: Professor
+Phone Number(s): 
+Home: : (323) 198-9875 
+Work: : (323) 454-1847 
+
+Name: Susan Romero
+Email: srome90@calstatela.edu
+Address: 
+Street Number: 1137
+Apartment Number: 2
+Street Name: Alma Street
+City: Los Angeles
+State: CA
+Zip Code: 99674
+Office: FA 342
+Salary: 50000.0
+Title: School Nurse
+Phone Number(s): 
+Home: : (323) 936-5388 
+
+Name: Elias Gomez
+Email: egomez5@calstatela.edu
+Address: 
+Street Number: 9845
+Apartment Number: 0
+Street Name: Saint Louis
+City: Los Angeles
+State: CA
+Zip Code: 94578
+Class Standing: senior
+Phone Number(s): 
+Home: : (323) 273-1908 
+
+Name: Marissa Cortez
+Email: macort11@calstatela.edu
+Address: 
+Street Number: 6386
+Apartment Number: 0
+Street Name: Mednik Avenue
+City: Los Angeles
+State: CA
+Zip Code: 97456
+Office: SH 173
+Salary: 62000.0
+Office Hours: M: 5:45
+Rank: Professor
+Phone Number(s): 
+Home: : (323) 384-1936 
+
+Name: Mark Delmis
+Email: mdelm75@calstatela.edu
+Address: 
+Street Number: 9464
+Apartment Number: 0
+Street Name: Paramount Street
+City: Montebello
+State: CA
+Zip Code: 94565
+Office: SH 176
+Salary: 38000.0
+Title: Therapist
+Phone Number(s): 
+Home: : (323) 183-1651 
+
+Name: Fred Alcantar
+Email: falca35@calstatela.edu
+Address: 
+Street Number: 3098
+Apartment Number: 4
+Street Name: Milton Street
+City: Montebello
+State: CA
+Zip Code: 91256
+Class Standing: junior
+Phone Number(s): 
+Home: : (323) 58-251 
+Cell: : (323) 468-3947 
+
+Name: Ruby Gonzalez
+Email: rgonz654@calstatela.edu
+Address: 
+Street Number: 2856
+Apartment Number: 0
+Street Name: Indian Street
+City: Montebello
+State: CA
+Zip Code: 94568
+Office: E&T 228
+Salary: 72000.0
+Office Hours: F: 1:00
+Rank: Professor
+Phone Number(s): 
+Home: : (323) 382-3984 
+
+Name: Ray Donovan
+Email: rdono786@calstatela.edu
+Address: 
+Street Number: 1666
+Apartment Number: 0
+Street Name: Bourbon Street
+City: Montebello
+State: CA
+Zip Code: 91446
+Office: FA 355
+Salary: 46500.0
+Title: Food Server
+Phone Number(s): 
+Home: : (323) 936-3408 
+
