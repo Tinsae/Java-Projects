@@ -1,7 +1,0 @@
-<DataBaseConfiguration>
-	<HibernateConfigFile>hibernate.cfg.xml</HibernateConfigFile>
-	<DescriptionMappingFile>IECaseDescription.hbm.xml</DescriptionMappingFile>
-	<DescriptionClassName>IECaseDescription</DescriptionClassName>
-	<SolutionMappingFile>IECaseSolution.hbm.xml</SolutionMappingFile>
-	<SolutionClassName>IECaseSolution</SolutionClassName>
-</DataBaseConfiguration>

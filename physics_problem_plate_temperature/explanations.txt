@@ -1,0 +1,103 @@
+There are three classes in this project
+
+* Plate
+* Lab3
+* Lab3Test
+
+A Plate object is represented as array of numbers
+// instance variable
+double [] plate
+// constructor
+Plate(double [] plate)
+{}
+This is the constructor of Plate. It takes a 2D array
+and initializes its instance variable
+
+Lab3 contains one method
+plate[] processTempsFromFile(File f, int num_of_plates)
+{}
+* A file contains multiple lines where each line
+contains four numbers seprated by comma
+* We can use BufferedReader and FileReader classes
+to read the file line by line.
+* num_of_plates tells the number of lines we need to read
+* the method returns array of plates
+
+Lab3Test will contain the main method
+In the main method we can add code in order to
+call processTempsFromFile with some file and num of plates
+and display results to the console screen.
+
+Hope the above explanations gave you idea about 
+the overall structure of the project
+
+Let us proceed to eclipse
+
+Create a java project
+
+
+Create the classes
+
+Use the given package edu.ben.labs.lab3
+
+Starting from the Plate class
+
+Moving to Lab3
+
+
+Most of the hard code will be in this function
+
+
+The four corners of the 12 by 12 array are not used
+
+The blue shaded regions are sized 10
+
+Top goes from row 0 colum 1
+to row 0 column 10
+
+Bottom goes from 11,1 to 11,10
+
+Left goes from 1,0 to 10,0
+
+Rigt goes from 11,11 to 10,11
+
+
+Before moving on let us test the program
+
+So first create a file and place it
+in the project
+
+It needs some fix because it is returning
+zeros in the middle but they should be
+69.
+
+And the edges should be 0 instead of 69
+
+
+Now it is working. 
+
+I spent 2 hours for this lesson
+
+Let us follow it up with a one hour 
+live lesson or another 1 hour written
+lesson
+
+
+Hope you understood everything
+
+Cheers
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

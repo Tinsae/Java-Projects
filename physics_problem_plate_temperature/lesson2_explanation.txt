@@ -1,0 +1,158 @@
+video link: https://youtu.be/_mIlwxHk5u4
+
+Welcome to the next lesson
+
+
+The remaining part is to
+
+update the array until it is stable
+
+The array section that needs to be updated
+
+ranges from 
+
+1,1  to 10,1
+10,1 to 10,10
+
+The new temperatue is the average
+of the four surrounding temperatures
+
+See the new temperature for the first 68
+is the average of its neigbors
+
+Let me show you another one
+
+
+Very clear right?
+
+Moving to eclipse
+
+Check the formula. We need these five indices
+
+i-1, j
+i, j-1
+i, j
+i, j+1
+i+1, j
+______
+
+We calculate the average of these five
+for each grid of the plate
+
+
+If a change is less than 0.1 then it is not
+significant
+
+Let me rename the variable to make it clear
+
+
+significantFound is better name
+
+
+
+This update is going to performed many times
+until all grid changes in the given plate
+are not signficant
+
+So I will add an outer while loop for that
+
+
+Time to test !!
+
+
+Let us reformat the decimals and the output
+
+
+Now let us align them in columns
+
+
+Formatting the numbers between the updates
+
+may create numerical instability
+
+so let us do the formatting and column alignment
+
+only during print
+
+
+Looks good, now let us check the numbers
+
+
+The numbers are not the same
+
+
+Let us check the code for mistakes
+
+
+Now it is better
+
+
+I used absolute value to calculate the changes
+
+because when colder temperature is 
+given on the edges, the plate temperature 
+will decrease
+
+whe hotter temperature is given on the edges
+
+the plate temperature will increase
+
+so absolute value of the differnce is checked
+
+When many updates are on floating point numbers
+computers are not exactly precise
+
+So the numbers may not exactly match with 
+the given output on the question 
+But they will be similar numbers
+
+Check it in your computer.
+This same code may not produce exactly
+the same precision numbers. 
+
+There are precision and rounding errors
+
+Compare the outputs they are very close
+
+Hope you are satisfied. If you need more help
+I am avaialble on the chat 
+
+It was a nice lesson
+
+
+Cheers
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

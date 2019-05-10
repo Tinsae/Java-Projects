@@ -1,0 +1,100 @@
+I opened your project in eclipse
+
+Commented line 16 and line 17
+on Runner.java
+
+Create a file playlist.txt
+and put it in the project directory
+
+I read the file and printed all lines
+
+See the code and output. It works
+
+Now let us implement the specific task
+
+It correctly prints the titles
+
+The function returns ArrayList<String>
+
+So instead of printing we need to add
+the titles to an arraylist and return
+that arraylist
+
+it works. Do the same on your computer and
+it shall work.
+
+Comment out the test codes we wrote and
+let us move to the next function
+
+
+The next function requires to be called 
+from extractTitlesFromFile
+
+So insted of splitting each line in 
+extractTitlesFromFile,
+we can pass the line to getSongName
+and getSongName will return the songName
+
+getSongName will recieve a line
+and will split the line to obtain and
+return the title
+
+Quick test. It worked. Do the same.
+
+We might have to getArtist as well
+
+Earlier we only added the song titles without
+artist name. 
+
+Let us modify it to include artist name 
+
+It is working now. Do the same on your computer
+
+Seprating them by - makes sense 
+
+Let me show you how to save the top 100
+
+and that will be enough for this lesson
+
+
+Quick test
+
+
+Check the file
+
+
+As you have seen it worked
+
+
+That is enough for now. 
+I spent 2 horus on this lesson
+
+If you didn't understand anything
+
+please arrange a live-lesson with me
+
+or ask me on the chat window
+
+Thanks,
+Tinsae
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

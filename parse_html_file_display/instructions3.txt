@@ -1,0 +1,36 @@
+In this lesson I am going to show 
+how to integrate the functions to the GUI
+
+
+* The class implements ActionListener
+* See the comments on the code
+* comment all unneccessariy code 
+from Runner.java
+
+Before testing, add this code so that
+when a button is clicked the appropriate 
+function is called
+
+Quick test
+
+Select the html file we downloaded
+
+As you can see it loads it
+
+Now let us try saving this to a new file
+
+Let us create a new file
+
+As you can see the file is empty
+
+It is done!
+
+Let us check the file
+
+It works
+
+
+That is all for this lesson. 
+
+Thanks
+Tinsae

@@ -1,0 +1,116 @@
+Create a new project
+
+This is the basic structure of a javafx app
+
+Create a new fxml document
+
+Open with Scene Builder
+
+Follw me
+
+- Resize the VBOX to the desired size
+(I used 320 x 240)
+
+- Drag textfield and gridpane
+
+- Drag buttons to the gridpane
+  Change fx:id property
+
+- The fx:ids will be used in the code
+to identify the controls
+
+- Set a new Controller
+ The controller is a class which manages this
+fxml document
+
+
+- Create event handlers
+Event handlers are methods that will be
+called when a button is clicked
+
+
+- Now let us do the controller class 
+which is Main.java
+
+- Generate Controller
+
+
+When a number is clicked append it
+to the existing input
+So it will work for multiple digit numbers
+
+When clear is clicked
+clear the text box and reset the variables
+choice = 0 means no operator is clicked
+
+
+When + is clicked.
+set Choice is 1
+Take the current value of the text field
+Convert it to double
+Store it in num1
+Then clear the text field
+
+
+When / is clicked
+set Choice to 2
+Take the current value of the textfield
+Convert to double
+Store it in num1
+Then clear the text field
+
+
+When equals is clicked
+
+Take the current value of the textfield
+Convert it to double
+Store it in num2
+Then clear the text field
+
+Then check which operator is selected
+This info is stored in choice variable
+
+if choice is 1
+result = num1 + num2
+set result to the textfield
+
+if choice is 2
+result = num1/ num2
+set result to the textfield
+
+Time to test the calculator
+
+The controller for Main.fxml is MainController.java
+
+Let us change that 
+
+Amazing it is working
+
+Change the title of the window
+
+Disable Maximize
+
+
+Hope you understood everything
+
+If you have questions I am available on the chat
+
+or you can arrange a live lesson with me
+
+Thanks
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

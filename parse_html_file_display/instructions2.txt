@@ -1,0 +1,82 @@
+Inspect element and see where 
+the the artist name, music title and rank
+are in the html file
+
+These are the three places. The same for
+all titles
+
+
+Install jsoup
+It as simple as downloading the jar file
+and connecting it with the project
+
+
+Next I am going to show you
+how to extract text from html tags
+
+Import the libraries
+
+
+Save the html file inside project directory
+
+Read the html file using buffered reader
+
+Merge all lines into one string
+
+
+chart-list-item contains everything 
+we need.
+
+So we are required to extract only that 
+tag
+
+
+We can iterate over all titles like this
+
+
+Quick test. It seems to work
+
+Moving on to the other functions
+
+
+In order to use the other functions
+
+We have to redo the first function
+
+
+Doing it seprately instead of reading
+one div tag for both
+
+Quick test
+
+
+The song name is in a span tag
+
+
+Moving to the thrid function
+
+saveToFile will work
+
+Let us add the rank
+
+
+Quick test
+
+
+
+It works
+
+Honestely speaking I spent around
+2 hours to understand html parsing
+and explain it to you.
+
+That is for this lesson
+
+On an another lesson I will show you
+how to integrate this to the 
+graphical user interface
+
+
+Thanks
+
+Tinsae
